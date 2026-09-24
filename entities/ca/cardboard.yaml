@@ -31,7 +31,7 @@ offers:
     economics:
       consideration:
         kind: variable
-        description: The startup pays the discounted monthly price of its chosen paid plan (Basic, Pro or Business), 80% below the list price, for one year from sign-up.
+        description: The startup receives 80% off for one year from the day it signs up.
       benefits:
         - benefit_id: ben_paid_plan_discount
           description: 80% off for one year from the day you sign up.
@@ -39,7 +39,6 @@ offers:
           percentage:
             kind: exact
             basis_points: 8000
-          applies_to: Cardboard Basic, Pro and Business plans
           duration:
             kind: exact
             value: P1Y
@@ -60,6 +59,5 @@ offers:
       availability: automatic
       method: automatic
       url: https://cardboard.inc/pricing/
-      instructions: Register with Cardboard; the discount is applied automatically for eligible businesses. Everyone starts on the Free plan and upgrades to a paid plan when needed.
     source_ids:
       - src_24cf81847b9d97c2e55b4a3c4f32ef5b
